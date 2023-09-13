@@ -7,7 +7,13 @@ def read_data():
 sample = read_data()
 
 def mean(data):
-    return sum(data) / len(data)
+    try:
+        av = sum(data) / len(data)
+        return av
+    except ZeroDivisionError:
+        print(f"You should provide the data to count the mean. \
+            Provided {data}.")
+
 
 average = mean(sample)
-print(average)
+# print(average)

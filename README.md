@@ -87,10 +87,13 @@ In this case, the function fails with a `ZeroDivisionError` because calling `len
 ## Task 1 Script mode
 In Python interpreter:
 
-Execute **script** `sample.py` in Python interpreter.
+A. Execute **script** `sample.py` in Python interpreter, add the `ZeroDivisionError` error handling for mean function.
 
-Write your own script,
-execute the function `random` from `random` **module**, print the ranodm number to the screen.
+B. Write your own script,
+execute the function `random` from `random` **module**, print the random number to the screen.
+
+
+
 
 
 
@@ -113,6 +116,11 @@ bytes_str = b"Hello"
 ...     print('\n')
 ```
 Python `bytes()` function is used to convert an object to an `immutable`(cannot be modified) byte object of the given `size and data`. The Python bytes() function returns a byte's object, which is an immutable series of integer numbers ranging from `0 to 256`.
+## Task Check the bytes of your name
+
+```
+
+```
 
 3. Exiting the Current Python REPL Session
 - quit()

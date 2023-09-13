@@ -23,7 +23,7 @@ Code
 
 # Git commands
 
-`git pull origin margin`
+`git pull origin main`
 
 `git checkout -b new_branch_name main`
 
